@@ -25,3 +25,5 @@
 
 D:\Test\LocalAgent\models\llama_engine> .\llama-server.exe -m "D:\Test\LocalAgent\models\Qwen3-4B-Instruct-2507-Q4_K_M.gguf" -c 4096 --port 8080 -t 8
 
+JARVIS: I'm JARVIS, a local-first AI engineering assistant designed to help with technical and computer-related tasks. I assist with coding, system troubleshooting, software development, and other professional work—all while keeping your data private and secure on your local machine. I don’t have access to the internet or external systems, so all interactions are based on your local environment. How can I assist you today?
+
