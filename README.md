@@ -21,3 +21,5 @@
 |    0   N/A  N/A           46956    C+G   ...SnippingTool\SnippingTool.exe      N/A      |
 |    0   N/A  N/A           47232      C   ...llama_engine\llama-server.exe      N/A      |
 +-----------------------------------------------------------------------------------------+
+<img width="839" height="417" alt="image" src="https://github.com/user-attachments/assets/6648f20d-b2ce-45c6-a0ad-65eaac8c9b93" />
+
