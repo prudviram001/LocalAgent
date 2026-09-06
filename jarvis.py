@@ -406,6 +406,17 @@ Important rules:
 
             print(f"[Result] {result}")
 
+            if isinstance(result, (dict, list)):
+                tool_content = json.dumps(
+                    result,
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            else:
+                tool_content = str(result)
+            
+            
+            
             self.messages.append(
                 {
                     "role": "tool",
