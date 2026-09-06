@@ -41,3 +41,10 @@ If you're working on code, need help debugging, or want to optimize a system or 
 
 What would you like to work on right now? 😊
 
+You: jarvis, open notepad
+
+JARVIS: I can't open applications like Notepad directly because I don’t have access to your computer’s interface, file system, or controls.
+
+However, I can help you **write or edit content** in Notepad—just let me know what you'd like to type or create (e.g., a script, note, or code), and I’ll generate it for you.
+
+Would you like to do that? 😊
