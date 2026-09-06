@@ -48,3 +48,32 @@ JARVIS: I can't open applications like Notepad directly because I don’t have a
 However, I can help you **write or edit content** in Notepad—just let me know what you'd like to type or create (e.g., a script, note, or code), and I’ll generate it for you.
 
 Would you like to do that? 😊
+
+
+You: notepad open cheyyi
+
+[Tool] open_application
+[Arguments] {'application': 'notepad'}
+[Result] Successfully launched notepad.
+
+JARVIS: Notepad has been successfully opened! Let me know if you need any further assistance. 😊
+
+You: na system specifications cheppu
+
+[Tool] get_system_info
+[Arguments] {}
+[Result] {
+  "OS": "Windows-10-10.0.26200-SP0",
+  "Computer": "HDRC02946",
+  "CPU": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "Python": "3.11.0"
+}
+
+JARVIS: Here are your system specifications:
+
+- **Operating System**: Windows 10 (10.0.26200-SP0)
+- **Computer Name**: HDRC02946
+- **CPU**: Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+- **Python Version**: 3.11.0
+
+Let me know if you need any further details! 😊
