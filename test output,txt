@@ -1,0 +1,24 @@
+D:\Test\LocalAgent>jarvis.py
+=================================================================
+JARVIS - Tool Engine v0.1
+=================================================================
+Checking llama-server...
+llama-server : OK
+Qwen         : CONNECTED
+Tool Engine  : READY
+
+Available tools:
+  - open_application
+  - get_system_info
+  - list_folder
+
+Type 'exit' to quit.
+-----------------------------------------------------------------
+
+You: na system specifications cheppu
+
+[Tool] get_system_info
+[Arguments] {}
+[Result] {'os': 'Windows-10-10.0.26200-SP0', 'computer_name': 'HDRC02946', 'python_version': '3.11.0', 'cpu': 'Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz', 'ram_gb': 31.64, 'nvidia_gpus': [{'name': 'Quadro T2000', 'vram': '4096 MiB', 'driver': '596.71'}], 'disk': {'total_gb': 953.74, 'free_gb': 262.39}}
+
+JARVIS ERROR: llama-server HTTP 400: {"error":{"code":400,"message":"Expected 'content' to be a string or an array","type":"invalid_request_error"}}
