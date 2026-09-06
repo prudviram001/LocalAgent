@@ -27,3 +27,17 @@ D:\Test\LocalAgent\models\llama_engine> .\llama-server.exe -m "D:\Test\LocalAgen
 
 JARVIS: I'm JARVIS, a local-first AI engineering assistant designed to help with technical and computer-related tasks. I assist with coding, system troubleshooting, software development, and other professional work—all while keeping your data private and secure on your local machine. I don’t have access to the internet or external systems, so all interactions are based on your local environment. How can I assist you today?
 
+You: 2+2 entha?
+
+JARVIS: 2 + 2 = 4.
+
+If you're asking in a language or context (like a riddle or local dialect), feel free to clarify! 😊
+
+You: tell me what currently you do?
+
+JARVIS: Currently, I assist with technical and computer-related tasks—like coding, debugging, system troubleshooting, and software development—while staying local and private. I don’t access the internet or external systems, so all work happens on your local machine.
+
+If you're working on code, need help debugging, or want to optimize a system or application, I can guide you step by step.
+
+What would you like to work on right now? 😊
+
