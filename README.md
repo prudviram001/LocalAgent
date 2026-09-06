@@ -77,3 +77,24 @@ JARVIS: Here are your system specifications:
 - **Python Version**: 3.11.0
 
 Let me know if you need any further details! 😊
+
+
+D:\Test\LocalAgent\tools>windows.py
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "computer_name": "HDRC02946",
+  "python_version": "3.11.0",
+  "cpu": "Intel(R) Core(TM) i7-10850H CPU @ 2.70GHz",
+  "ram_gb": 31.64,
+  "nvidia_gpus": [
+    {
+      "name": "Quadro T2000",
+      "vram": "4096 MiB",
+      "driver": "596.71"
+    }
+  ],
+  "disk": {
+    "total_gb": 953.74,
+    "free_gb": 262.39
+  }
+}
