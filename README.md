@@ -23,3 +23,5 @@
 +-----------------------------------------------------------------------------------------+
 <img width="839" height="417" alt="image" src="https://github.com/user-attachments/assets/6648f20d-b2ce-45c6-a0ad-65eaac8c9b93" />
 
+D:\Test\LocalAgent\models\llama_engine> .\llama-server.exe -m "D:\Test\LocalAgent\models\Qwen3-4B-Instruct-2507-Q4_K_M.gguf" -c 4096 --port 8080 -t 8
+
