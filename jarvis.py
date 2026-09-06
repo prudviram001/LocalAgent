@@ -8,6 +8,7 @@ import urllib.error
 import urllib.request
 from dataclasses import dataclass
 from typing import Any, Callable
+from tools.windows import get_system_info
 
 
 # ============================================================
@@ -67,17 +68,7 @@ def open_application(application: str) -> str:
         return f"Failed to launch {application}: {exc}"
 
 
-def get_system_info() -> str:
-    """Return basic local machine information."""
 
-    info = {
-        "OS": platform.platform(),
-        "Computer": platform.node(),
-        "CPU": platform.processor(),
-        "Python": platform.python_version(),
-    }
-
-    return json.dumps(info, indent=2)
 
 
 def list_folder(path: str) -> str:
